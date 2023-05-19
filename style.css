@@ -1,0 +1,289 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 77, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.wireframe{
+    background-color: #ffffff;
+    outline: 2px solid rgb(95, 84, 86);
+    text-align: center;
+}
+
+#header-div{
+    justify-content: left;
+
+}
+
+#china-logo{
+    margin:auto;
+    color: #ffffff;
+
+}
+
+#menu{
+    justify-content: left;
+}
+
+#title-text{
+    text-align: center;
+    color: #ffffff;
+}
+
+#regions{
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 2%;
+    color: #ffffff;
+}
+
+p{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+#heritage-text{
+    background-color: rgb(235, 113, 80);
+}
+
+.page-color{
+    background-color: rgb(95, 84, 86);
+}
+.carouselExample{
+    width: 100%;
+    height: 800px!important;
+}
+
+#navbarNavAltMarkup{
+    justify-content: left;
+
+}
+
+.left-align{
+    justify-content: left;
+
+}
+
+.right-align{
+    justify-content: right;
+
+}
+
+#date{
+    font-weight: bold;
+}
+
+#chinese-flag{
+    height: 90%;
+    margin-top: 3%;
+}
+
+ul{
+    color:#ffffff;
+    text-align: left;
+    margin-right: 22%;
+    margin-left: 22%;
+    text-align: justify;
+}
+
+h2{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color:#ffffff;
+    text-align: center;
+    margin: 2%;
+
+}
+
+#history-china{
+    text-align: left;
+}
+
+.embed-responsive-16by9{
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.glr{
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+  }
+
+/* CSS for larger modal */
+.modal-lg .modal-dialog {
+    max-width: 1800px; /* Adjust the width as needed */
+  }
+  
+  .modal-lg .modal-content {
+    width: 100%;
+  }
+  
+  .modal-lg .modal-body {
+    max-height: 80vh; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .modal-lg .modal-body img {
+    width: 100%;
+    height: auto;
+  }
+
+  .form-label{
+    font-weight: bold;
+  }
+
+  .about{
+    text-align: center;
+    color: black;
+  }
+
+  .background-picture{
+    background-image: url("images/background.avif");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  
+  a:visited {
+    color: grey;
+    text-decoration: underline;
+
+  }
+  
+  a:not(:visited) {
+    color: black;
+    text-decoration: underline;
+
+  }
+
+  #email{
+    width: 40%;
+  }
+
+  #message{
+    width: 70%;
+  }
+
+  .centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-label{
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+  #black-text{
+    color: white;
+    opacity: 1;
+  }
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wireframe {
+    border: 1px dashed black;
+    padding: 10px;
+  }
+  
+
+
+  /*ezt iframe miatt raktam bele*/
+  .embed-responsive {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+  }
+  
+  .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height/width) */
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .custom-video {
+    width: 640px;
+    height: 360px;
+  }
+
+  .red-color{
+    background-color: #e84236;
+  }
+
+  #heart{
+    width: 40%;
+    margin-top: 20%;
+  }
+
+  
+.black-text{
+    color: black;
+}
+
+  @media print {
+    .header,
+    .footer,
+    .video,
+    .custom-video,
+    #chinese-flag,
+    #image-id,
+    aside,
+    #menu{
+      display: none;
+    }
+}
+    @media print {
+    .img-fluid{
+        max-width: 30%;
+        height: auto;
+    }
+  }
